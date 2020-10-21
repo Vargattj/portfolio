@@ -53,7 +53,7 @@ body {
       font-size: 16px;
       margin: 24px 0; }
     #main #hero button {
-      width: fit-content;
+      width: 180px;
       align-self: center;
       padding: 12px;
       background-color: #ffc10d;
@@ -153,3 +153,61 @@ body {
 #portfolio hr {
   background-color: #ccc;
   margin: 96px 0; }
+
+#contact {
+  margin-top: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #330033;
+  color: #fff; }
+  #contact .container {
+    margin: 0 auto;
+    width: 960px; }
+    #contact .container h1 {
+      font-weight: 500;
+      font-size: 28px;
+      max-width: 360px;
+      line-height: 32px; }
+      #contact .container h1::after {
+        content: "";
+        margin: 5px;
+        width: 206px;
+        height: 2px;
+        background-color: #ffc10d;
+        display: block; }
+    #contact .container p {
+      margin-top: 16px;
+      font-size: 18px; }
+    #contact .container form {
+      display: flex;
+      flex-direction: column; }
+      #contact .container form input, #contact .container form textarea {
+        padding: 16px 0px;
+        margin: 16px 0px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom: solid 2px #fff;
+        color: #fff;
+        font-size: 24px; }
+        #contact .container form input::placeholder, #contact .container form textarea::placeholder {
+          color: #fff;
+          font-size: 24px;
+          text-transform: capitalize; }
+        #contact .container form input:focus, #contact .container form textarea:focus {
+          border-color: #ffc10d; }
+      #contact .container form button {
+        margin: 0 auto;
+        margin-top: 16px;
+        cursor: pointer;
+        display: block;
+        width: 180px;
+        text-align: center;
+        padding: 12px;
+        background-color: #ffc10d;
+        border-radius: 16px;
+        border: none;
+        color: #333;
+        -webkit-box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61);
+        box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61); }
