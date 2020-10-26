@@ -1,0 +1,33 @@
+#hero {
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin: 0px auto;
+  text-align: center;
+  color: #fff;
+
+  h1 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 24px 0;
+  }
+
+  button {
+    width: 180px;
+    align-self: center;
+    padding: 12px;
+    background-color: #ffc10d;
+    border-radius: 16px;
+    border: none;
+    color: #333;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61);
+    box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61);
+  }
+}
