@@ -83,18 +83,18 @@ body {
     box-shadow: 4px 7px 22px -13px rgba(0, 0, 0, 0.61); }
 
 #services {
-  width: 1080px;
-  margin: 64px auto;
+  width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative; }
   #services .cards {
-    display: flex; }
+    width: 1080px;
+    margin: 36px auto; }
     #services .cards .service {
-      max-width: 264px;
+      margin: 0 auto;
+      max-width: 300px;
       text-align: center; }
-      #services .cards .service + div {
-        margin-left: 98px; }
       #services .cards .service i {
         color: #330033;
         font-size: 60px; }
@@ -102,11 +102,19 @@ body {
         text-transform: uppercase;
         color: #330033;
         font-size: 18px;
-        padding: 12px; }
+        padding: 12px 0; }
       #services .cards .service p {
         font-size: 15px; }
-  #services a {
-    margin-top: 36px;
+  #services i {
+    cursor: pointer;
+    font-size: 70px;
+    color: #330033; }
+  #services .glider-prev {
+    left: 20px; }
+  #services .glider-next {
+    right: 20px; }
+  #services .callButton {
+    margin-bottom: 36px;
     width: 160px;
     align-self: center;
     padding: 12px;

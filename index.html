@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/glider.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
       rel="stylesheet"
     />
+
     <title>Jônatas Vargatt</title>
   </head>
   <body>
@@ -33,9 +36,9 @@
     </header>
 
     <section id="services">
-      <div class="cards">
+      <div class="cards glider">
         <div class="service">
-          <i class="material-icons">fact_check</i>
+          <i class="material-icons-round">fact_check</i>
           <h2>Design + Development</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
@@ -44,8 +47,7 @@
         </div>
 
         <div class="service">
-        
-          <i class="material-icons">fact_check</i>
+          <i class="material-icons-round">fact_check</i>
           <h2>Design + Development</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
@@ -54,8 +56,7 @@
         </div>
 
         <div class="service">
-          
-          <i class="material-icons">fact_check</i>
+          <i class="material-icons-round">fact_check</i>
           <h2>Design + Development</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
@@ -63,9 +64,21 @@
           </p>
         </div>
 
+        <div class="service">
+          <i class="material-icons-round">fact_check</i>
+          3
+          <h2>Design + Development</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+            quasi amet quo et maxime autem impedit.
+          </p>
+        </div>
 
       </div>
-      <a href="#">Ver mais</a>
+
+      <a href="#" class="callButton">Ver mais</a>
+      <i class="glider-prev material-icons-round">chevron_left</i>
+      <i class="glider-next material-icons-round">chevron_right</i>
     </section>
     
     <div class="divider"></div>
@@ -123,8 +136,15 @@
         </div>
       </form>
     </section>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
-    <script src="js/glider.js"></script>
+    <!-- <div class="glider">
+      <div> Slide 1 </div>
+      <div> Slide 2 </div>
+      <div> Slide 3 </div>
+    </div>
+    <div id="dots"></div>
+    <a class="glider-prev">&laquo;</a>
+    <a class="glider-next">&raquo;</a> -->
+    <script src="js/glider.min.js"></script>
     <script type="module" src="js/script.js"></script>
   </body>
 </html>

@@ -1,20 +1,19 @@
 #services {
-  width: 1080px;
-  margin: 64px auto;
+  width: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  // justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
 
   .cards {
-    display: flex;
-
+    width: 1080px;
+    margin: 36px auto;
     .service {
-      max-width: 264px;
+      margin: 0 auto;
+      max-width: 300px;
       text-align: center;
 
-      & + div {
-        margin-left: 98px;
-      }
       i {
         color: #330033;
         font-size: 60px;
@@ -23,15 +22,26 @@
         text-transform: uppercase;
         color: #330033;
         font-size: 18px;
-        padding: 12px;
+        padding: 12px 0;
       }
       p {
         font-size: 15px;
       }
     }
   }
-  a {
-    margin-top: 36px;
+  i {
+    cursor: pointer;
+    font-size: 70px;
+    color: #330033;
+  }
+  .glider-prev {
+    left: 20px;
+  }
+  .glider-next {
+    right: 20px;
+  }
+  .callButton {
+    margin-bottom: 36px;
     width: 160px;
     align-self: center;
     padding: 12px;
