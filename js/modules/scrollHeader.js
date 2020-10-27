@@ -6,9 +6,7 @@ export default function scrollHeader() {
     if(scrollY !== 0){
       menu.classList.add('headerScrolling');
       menu.classList.remove('headerFixed')
-      console.log('not on top');
     }else{
-      console.log('top');
       menu.classList.remove('headerScrolling')
       menu.classList.add('headerFixed');
     }
